@@ -1,0 +1,14 @@
+{
+  "name": "HYDRA Client",
+  "description": "A barebones Node.js app using Express",
+  "repository": "https://github.com/devsofvoid/hydra-client",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["php", "hydra", "client"],
+  "env": {
+    "head": {
+      "description": "URL address of HYDRA HEAD server. Example http://localhost:3000",
+      "required": false,
+      "value": ""
+    }
+  }
+}
