@@ -1,8 +1,8 @@
 {
   "name": "HYDRA Client",
-  "description": "A barebones Node.js app using Express",
+  "description": "Something bigger than just hydra",
   "repository": "https://github.com/devsofvoid/hydra-client",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "logo": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/4b/H_alternate_3.png/revision/latest?cb=20160331154244",
   "keywords": ["php", "hydra", "client"],
   "env": {
     "head": {
