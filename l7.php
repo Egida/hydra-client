@@ -9,15 +9,6 @@
 
 error_reporting(0);
 if(!$_GET['key']) die('{"type":"error", "code":"access_denied", "message": "Wrong key"}');
-$license = json_decode(file_get_contents('https://api.void.cf/validate?token='.$_GET['key']));
-
-if($license->message) {
-    $license_type = 'error';
-} elseif ($license->type) {
-    $license_type = 'success';
-}
-
-if($license_type=='error') die('{"type":"error", "code":"access_denied", "message": "Wrong key"}');
 if(!$_GET['target'] || !$_GET['port'] || !$_GET['repeats']) die('{"type": "error", "message": "You must specify params correctly"}');
 
 for ($i = 1; $i <= $_GET['repeats']; $i++) {
